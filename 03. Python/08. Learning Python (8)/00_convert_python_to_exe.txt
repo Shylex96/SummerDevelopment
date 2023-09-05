@@ -1,0 +1,31 @@
+(Windows Defender may prevent you from running)
+(make sure pip and pyinstaller are installed/updated)
+
+1. cd to directory that contains your .py file
+
+2. pyinstaller -F -w -i icon.ico program_name.py
+
+  -F   (all in 1 file)
+  -w   (removes terminal window)
+  -i icon.ico  (adds custom icon to .exe)
+  program_name.py  (name of your main python file)
+
+3. exe is located in the dist folder
+
+
+# ****************************************************************************************** #
+# Python pip                                                                                 #
+# ****************************************************************************************** #
+#       pip = package manager for packages and modules from Python Package Index             #
+#                                                                                            #
+#       included for Python versions 3.4+                                                    #
+#       open command prompt                                                                  #
+#                                                                                            #
+#       help:                                        pip                                     #
+#       check:                                       pip --version                           #
+#       update:                                      pip install --upgrade pip               #
+#       installed packages:                          pip list                                #
+#       check outdated packages:                     pip list --outdated                     #
+#       update a package:                            pip install "package name" --upgrade    #
+#       install a package:                           pip install "package name"              #
+# ****************************************************************************************** #
