@@ -23,6 +23,7 @@ To put the learned concepts to the test, review these concepts, and acquire new 
 
 Each of these projects provided valuable learning experiences and allowed me to explore different aspects of programming and development. While they may not be perfect, they represent my journey in acquiring new skills and enhancing my understanding of various technologies.
 
+### ~~~ Project on pause due to the start of classes ~~~ ###
 
 ## Reminder:
 
