@@ -23,6 +23,7 @@ public class MainController implements WindowListener, MouseListener, MouseMotio
 	private NewUser newUser;
 	private LoadUser login;
 	private GameMenu gameMenu;
+	private UserDatabaseManager createUser;
 
 	private boolean button1Activated = false;
 	private boolean button2Activated = false;
@@ -272,8 +273,10 @@ public class MainController implements WindowListener, MouseListener, MouseMotio
 			else if (mouseX >= 42 && mouseX <= 211 && mouseY >= 50 && mouseY <= 128) {
 
 				gameMenu.dispose();
+				createUser = new UserDatabaseManager();
 				mainMenu = new MainMenu();
-				mainMenu.addMouseListener(this);
+				
+				new MainController(createUser, mainMenu);
 			}
 		}
 	}
